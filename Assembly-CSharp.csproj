@@ -36,13 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MapBlockDestroyer.cs" />
-     <Compile Include="Assets\Scripts\MapBlockSpawner.cs" />
-     <Compile Include="Assets\Scripts\teste2-matriz\TileScriptable.cs" />
-     <Compile Include="Assets\Scripts\teste2-matriz\SingleMapManager.cs" />
-     <Compile Include="Assets\Scripts\RoomSpawner.cs" />
-     <Compile Include="Assets\Scripts\teste2-matriz\MapGenMatriz.cs" />
-     <Compile Include="Assets\Scripts\RoomTemplates.cs" />
+     <Compile Include="Assets\Scripts\MapGenerationScripts\TileScriptable.cs" />
+     <Compile Include="Assets\Scripts\MapGenerationScripts\SingleMapManager.cs" />
+     <Compile Include="Assets\Scripts\MapGenerationScripts\MapGenMatriz.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
